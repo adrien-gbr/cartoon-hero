@@ -8,20 +8,55 @@ html, body {
 
 header{
 	background-color: #8600b3;
-	padding: 40px;
+	background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
 	text-align: center;
+	padding: 100px;
+	/*parallax effect*/
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 h1{
 	font-size: 90px;
 	color: white; 
+	text-align: center;
+	font-family: Roboto
 }
 
 header img{
 	border-radius: 20px;
 	width: 200px;
-	border: 10px solid #ecb3ff;
+	border: 10px solid white;
 }
 
+
+
+.about{ text-align: center; 
+		font-family: Roboto; 
+		font-size: 50px;
+}
+
+
+
+h2{
+	text-align: center;
+	font-family: Roboto;
+	font-size: 50px;
+}
+
+
+ol li{ 
+display: inline;
+align-content: center;
+font-family: Roboto;
+}
+
+.sentence{text-align: center;
+			font-family: Roboto;
+			padding-bottom: 50px;
+			}
 
 .content{
 	max-width: 900px;
@@ -67,6 +102,7 @@ footer ul li{
 	color: white;
 	font-family: Roboto;
 }
+
 
 
 
